@@ -2,6 +2,20 @@ head {
     height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
+/* Codul acesta elimina partea de video+maps daca ecranul e prea mic */
+  /* @media only screen and (max-width: 600px) {
+    section.maps {
+      display: none;
+    }
+    section.video {
+        display: none;
+    }
+  } */
+
 body {
     background-color: #2f3035;
     background-image: url(images/paste-jamie-oliver-integrale-gri.png);
@@ -16,80 +30,80 @@ body {
     width: 1024px;
 }
 
-header {
-    background-color: rgba(0, 0, 255, 0);
-    height: 118px;
-}
+    header {
+        background-color: rgba(0, 0, 255, 0);
+        height: 118px;
+    }
 
-nav {
-    background-color: rgba(0, 0, 0, 0.329);
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
+    nav {
+        background-color: rgba(0, 0, 0, 0.329);
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
 
-main {
-    height: 400px;
-    text-align: center;
-    padding-top: 80px;
-    padding-right: 240px;
-    padding-left: 240px;
-    padding-bottom: 80px;
-}
+    main {
+        height: 400px;
+        text-align: center;
+        padding-top: 80px;
+        padding-right: 240px;
+        padding-left: 240px;
+        padding-bottom: 80px;
+    }
 
 
-footer {
-    background-color: rgba(0, 0, 0, 0.404);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 240px;
-    padding-left: 240px;
-}
+    footer {
+        background-color: rgba(0, 0, 0, 0.404);
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 240px;
+        padding-left: 240px;
+    }
 
-footer p {
-    font-size: 12px;
-    text-align: center;
-    color: rgb(196, 196, 196);
-}
+    footer p {
+        font-size: 12px;
+        text-align: center;
+        color: rgb(196, 196, 196);
+    }
 
-h1 {
-    font-size: 64px;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-}
+    h1 {
+        font-size: 64px;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-p {
-    font-size: 18px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    /* padding: 10px; */
-}
+    p {
+        font-size: 18px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        /* padding: 10px; */
+    }
 
-a {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-nav a {
-    text-decoration: none;
-    font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    nav a {
+        text-decoration: none;
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.maps {
-    padding: 10px;
-}
+    .maps {
+        padding: 10px;
+    }
 
-.maps p {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-}
+    .maps p {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
 
-.video p {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-}
+    .video p {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
